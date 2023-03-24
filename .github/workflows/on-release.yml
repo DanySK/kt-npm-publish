@@ -14,7 +14,7 @@ jobs:
     steps:
       #      - &cache_jdk
       - name: Cache JDK
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: ~/.jabba
           key: ${{ runner.os }}-jdk-${{ env.jdk-version }}
@@ -43,7 +43,7 @@ jobs:
 
       #      - *cache_jdk
       - name: Cache JDK
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: ~/.jabba
           key: ${{ runner.os }}-jdk-${{ env.jdk-version }}
@@ -58,7 +58,7 @@ jobs:
 
       #      - &cache_gradle
       - name: Cache Gradle Data
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: |
             ~/.m2/repository
@@ -108,7 +108,7 @@ jobs:
 
       #      - *cache_jdk
       - name: Cache JDK
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: ~/.jabba
           key: ${{ runner.os }}-jdk-${{ env.jdk-version }}
@@ -123,7 +123,7 @@ jobs:
 
       #      - *cache_gradle
       - name: Cache Gradle Data
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: |
             ~/.m2/repository
@@ -161,7 +161,7 @@ jobs:
 
       #      - *cache_jdk
       - name: Cache JDK
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: ~/.jabba
           key: ${{ runner.os }}-jdk-${{ env.jdk-version }}
@@ -176,7 +176,7 @@ jobs:
 
       #      - *cache_gradle
       - name: Cache Gradle Data
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: |
             ~/.m2/repository
@@ -220,7 +220,7 @@ jobs:
 
       #      - *cache_jdk
       - name: Cache JDK
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: ~/.jabba
           key: ${{ runner.os }}-jdk-${{ env.jdk-version }}
@@ -235,7 +235,7 @@ jobs:
 
       #      - *cache_gradle
       - name: Cache Gradle Data
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: |
             ~/.m2/repository
