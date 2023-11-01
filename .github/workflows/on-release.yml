@@ -34,7 +34,7 @@ jobs:
     steps:
       #      - &checkout_code
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0 # all history
 
@@ -99,7 +99,7 @@ jobs:
     steps:
       #      - *checkout_code
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0 # all history
 
@@ -152,7 +152,7 @@ jobs:
     steps:
       #      - *checkout_code
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0 # all history
 
@@ -211,7 +211,7 @@ jobs:
     steps:
       #      - *checkout_code
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0 # all history
 
